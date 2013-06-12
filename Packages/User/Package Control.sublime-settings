@@ -1,0 +1,21 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"All Autocomplete",
+		"BracketHighlighter",
+		"Package Control",
+		"PowerShell",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Theme - Soda",
+		"TrailingSpaces",
+		"VintageEx"
+	],
+	"repositories":
+	[
+		"https://github.com/SublimeText/PowerShell"
+	]
+}

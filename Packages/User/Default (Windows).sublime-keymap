@@ -1,0 +1,42 @@
+[
+	// Use "jj" to exit insert mode
+	{ "keys": ["j", "j"], "command": "exit_insert_mode",
+		"context":
+		[
+			{ "key": "setting.command_mode", "operand": false },
+			{ "key": "setting.is_widget", "operand": false }
+		]
+	},
+
+	// Use ",go" in command mode to show the gotoanything overlay (ctrl-p)
+	{ "keys": [",", "g", "o"], "command": "show_overlay",
+	  "args": {"overlay": "goto", "show_files": true },
+	  "context": [{ "key": "setting.command_mode" } ]
+	},
+
+	// Use ",cm" in command mode to show the command pallete overlay (ctrl-shift-p)
+	{ "keys": [",", "c", "m"], "command": "show_overlay",
+	  "args": {"overlay": "command_palette"},
+	  "context": [{ "key": "setting.command_mode" } ]
+	},
+
+	// Move down in overlay mode with ctrl-j
+	{ "keys": ["ctrl+j"], "command": "move", "args": {
+	  "by": "lines",
+	  "forward": true},
+	  "context":
+	  [
+	    { "key": "overlay_visible", "operator": "equal", "operand": true }
+	  ]
+	},
+
+	// Move up in overlay mode with ctrl-k
+	{ "keys": ["ctrl+k"], "command": "move", "args": {
+	  "by": "lines",
+	  "forward": false},
+	  "context":
+	  [
+	    { "key": "overlay_visible", "operator": "equal", "operand": true }
+	  ]
+	}
+]
