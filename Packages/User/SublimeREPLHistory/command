@@ -1,0 +1,56 @@
+-cd
+-dir
+-ls
+-C:\\darioa_lab\\source\\qcom\\qct\\platform\\winmobile\\EA\\workspaces\\wufan\\automation\\main\\tests\\cv_pywinauto.py
+-"C:\\darioa_lab\\source\\qcom\\qct\\platform\\winmobile\\EA\\workspaces\\wufan\\automation\\main\\tests\\cv_pywinauto.py"
+-import os
+-os.system('"C:\\darioa_lab\\source\\qcom\\qct\\platform\\winmobile\\EA\\workspaces\\wufan\\automation\\main\\tests\\cv_pywinauto.py"')
+-import PyDbgEng
+-help(PyDbgEng)
+-help(PyDbgEng.PyDbgEng)
+-help(PyDbgEng)
+-clear
+-exit()
+-import PyDbgEng
+-help(PyDbgEng)
+-mport PyDbgEng
+-help(PyDbgEng)
+-import PyDbgEng
+-help(PyDbgEng)
+-PyDbgEng.__all__
+-PyDbgEng.PyDbgEng
+-help(PyDbgEng.PyDbgEng)
+-import PyDbgEng
+-help(PyDbgEng.KernelAttacher)
+- help(PyDbgEng.DbgEng)
+-help(PyDbgEng.DbgEng)
+-import from PyDbgEng *
+-from PyDbgEng import *
+-import PyDbgEng
+-help(PyDbgEng.Hooking)
+-help
+-help(PyDbgEng.DbgEng)
+-import PyDbgEng
+-import Threading
+-import threading
+-help(threading.Event)
+-help(threading.Event())
+-help(getopt)
+-help(getopts)
+-help(getopt.getopt)
+-help(getopt.getopt())
+-help(getopt.getopts)
+-help(PyDbgEng.IDebugOutputCallbacksSink)
+-help(PyDbgEng.IDebugEventCallbacksSink)
+-import getopt
+-help(getopt)
+-!sym noisy
+-!sym noisy
+-.reload
+-g
+-.reload
+-!sym noisy
+-.reload
+-g
+-wpuat.ps1
+-.\\wpuat.ps1

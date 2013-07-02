@@ -4,9 +4,11 @@
 		"Alignment",
 		"All Autocomplete",
 		"BracketHighlighter",
+		"LiveReload",
 		"Package Control",
 		"PowerShell",
 		"SideBarEnhancements",
+		"SublimeBlockCursor",
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeREPL",
@@ -16,6 +18,8 @@
 	],
 	"repositories":
 	[
-		"https://github.com/SublimeText/PowerShell"
+		"https://github.com/SublimeText/PowerShell",
+		"https://github.com/SublimeCodeIntel",
+		"https://github.com/SublimeCodeIntel/SublimeCodeIntel"
 	]
 }

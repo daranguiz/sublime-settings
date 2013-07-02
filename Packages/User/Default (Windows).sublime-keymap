@@ -38,5 +38,8 @@
 	  [
 	    { "key": "overlay_visible", "operator": "equal", "operand": true }
 	  ]
-	}
+	},
+
+	// Cancel build without ctrl-break
+	{"keys": ["ctrl+shift+c"], "command": "exec", "args": {"kill": true} }
 ]
